@@ -4,8 +4,8 @@ import sys
 pygame.init()
 pygame.mixer.init()
 
-pygame.mixer.music.load("poradovskyi-cozy-chill-lounge-music-469048.mp3")
-pygame.mixer.music.load("the_mountain-cool-138613.mp3")
+pygame.mixer.music.load("downloads/poradovskyi-cozy-chill-lounge-music-469048.mp3")
+pygame.mixer.music.load("downloads/the_mountain-cool-138613.mp3")
 
 screen = pygame.display.set_mode((400, 300))
 pygame.display.set_caption("Musicplayer")
