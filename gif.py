@@ -4,7 +4,7 @@ import gif_pygame as gpg
 
 pg.init()
 
-gif = gpg.load("tenor-2663287124.gif")
+gif = gpg.load("downloads/tenor-2663287124.gif")
 
 screen = pg.display.set_mode((498, 331))
 print (gif.width, gif.height)
