@@ -21,7 +21,7 @@ playerspeed = 0.05
 playerx = 400
 playery = 300
 playerscale = 50
-playerpath = "red square.jpg"
+playerpath = "downloads/red square.jpg"
 player = pygame.image.load(playerpath)
 player = pygame.transform.scale(player, (playerscale, playerscale))
 playerrect = player.get_rect(topleft=(playerx, playery))
